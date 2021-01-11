@@ -1,0 +1,26 @@
+html,
+body {
+  min-width: auto;
+  height: auto;
+  /* The image used */
+  background-image: url(./assets/splash.jpg);
+
+  /* background-origin: content-box, padding-box; */
+  background-repeat: repeat-y;
+  /* background-size: cover; */
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-top: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1500px;
+  margin: auto;
+  min-width: 500px;
+}
